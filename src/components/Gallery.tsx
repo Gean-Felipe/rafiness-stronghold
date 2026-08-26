@@ -102,8 +102,8 @@ export function Gallery() {
             <ChevronLeft className="h-6 w-6" aria-hidden />
           </button>
           <img
-            src={IMAGES[index].src}
-            alt={IMAGES[index].alt}
+            src={IMAGES[index]!.src}
+            alt={IMAGES[index]!.alt}
             onClick={(e) => e.stopPropagation()}
             className="max-h-[85vh] w-auto max-w-[90vw] rounded-xl object-contain shadow-[var(--shadow-panel)]"
           />
